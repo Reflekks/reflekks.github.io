@@ -1,0 +1,108 @@
+@import url(font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+body {
+	background-image: url("../reflekks.com/images/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 550px;
+	background-color: white;
+	padding: 25px;
+	border-radius:25px;
+}
+
+#board {
+	text-align: center;
+	color: #04122c;
+}
+
+#board .avatar img {
+  vertical-align: middle;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+ul.icons {
+		cursor: default;
+		list-style: none;
+		padding: 25px;
+		margin-top: -0.675em;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding: 0.675em 0.5em;
+		}
+
+			ul.icons li a {
+				text-decoration: none;
+				position: relative;
+				display: block;
+				width: 3.75em;
+				height: 3.75em;
+				border-radius: 100%;
+				border: solid 1px #c8cccf;
+				line-height: 3.75em;
+				overflow: hidden;
+				text-align: center;
+				text-indent: 3.75em;
+				white-space: nowrap;
+			}
+
+				ul.icons li a:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.icons li a:before {
+					color: #04122c;
+				}
+
+				ul.icons li a:before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: inherit;
+					height: inherit;
+					font-size: 1.85rem;
+					line-height: inherit;
+					text-align: center;
+					text-indent: 0;
+				}
+
+				ul.icons li a:hover {
+					border-color: #04122c;
+				}
+
+		@media screen and (max-width: 480px) {
+
+			ul.icons li a:before {
+				font-size: 1.5rem;
+			}
+
+		}
