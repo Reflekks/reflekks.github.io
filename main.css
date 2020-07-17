@@ -38,65 +38,68 @@ body {
 }
 
 #board .avatar img {
-  vertical-align: middle;
   border-radius: 50%;
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
 }
 
 ul.icons {
-		cursor: default;
-		list-style: none;
-		padding: 10px;
+	cursor: default;
+	list-style: none;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+	ul.icons li {
+		display: inline-block;
+		padding: 2px;   
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 2px;
+		ul.icons li a {
+			text-decoration: none;
+			position: relative;
+			display: block;
+			width: 3.75em;
+			height: 3.75em;
+			border-radius: 100%;
+			border: solid 1px #c8cccf;
+			line-height: 3.75em;
+			overflow: hidden;
+			text-align: center;
+			text-indent: 3.75em;
+			white-space: nowrap;
 		}
 
-			ul.icons li a {
-				text-decoration: none;
-				position: relative;
-				display: block;
-				width: 3.75em;
-				height: 3.75em;
-				border-radius: 100%;
-				border: solid 1px #c8cccf;
-				line-height: 3.75em;
-				overflow: hidden;
-				text-align: center;
-				text-indent: 3.75em;
-				white-space: nowrap;
+			ul.icons li a:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
 			}
 
-				ul.icons li a:before {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-					font-style: normal;
-					font-weight: normal;
-					text-transform: none !important;
-				}
+			ul.icons li a:before {
+				color: #04122c;
+			}
 
-				ul.icons li a:before {
-					color: #04122c;
-				}
+			ul.icons li a:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: inherit;
+				height: inherit;
+				font-size: 1.85rem;
+				line-height: inherit;
+				text-align: center;
+				text-indent: 0;
+			}
 
-				ul.icons li a:before {
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: inherit;
-					height: inherit;
-					font-size: 1.85rem;
-					line-height: inherit;
-					text-align: center;
-					text-indent: 0;
-				}
-
-				ul.icons li a:hover {
-					border-color: #04122c;
-				}
+			ul.icons li a:hover {
+				border-color: #04122c;
+			}
 
 		@media screen and (max-width: 480px) {
 
@@ -105,3 +108,20 @@ ul.icons {
 			}
 
 		}
+		
+#board .resume {
+	text-align: left;
+	font-weight: 300;
+}
+
+#board .name {
+	font-weight: 400;
+	text-align: center;
+}
+
+#board .links {
+	position: absolute;  
+	bottom: 17.5%;
+	vertical-align: bottom;
+	text-align: center;
+}
