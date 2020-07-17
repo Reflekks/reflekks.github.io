@@ -45,10 +45,6 @@ body {
   padding-bottom: 10px;
 }
 
-#links {
-	position:absolute;                  
-    bottom: 18%;
-}
 
 ul.icons {
 	cursor: default;
