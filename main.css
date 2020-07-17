@@ -45,6 +45,11 @@ body {
   padding-bottom: 10px;
 }
 
+#links {
+	position:absolute;                  
+    bottom: 18%;
+}
+
 ul.icons {
 	cursor: default;
 	list-style: none;
@@ -116,12 +121,5 @@ ul.icons {
 
 #board .name {
 	font-weight: 400;
-	text-align: center;
-}
-
-#board .links {
-	position: absolute;  
-	bottom: 17.5%;
-	vertical-align: bottom;
 	text-align: center;
 }
