@@ -46,8 +46,7 @@ body {
 ul.icons {
 		cursor: default;
 		list-style: none;
-		padding: 25px;
-		margin-top: -0.675em;
+		padding: 10px;
 	}
 
 		ul.icons li {
