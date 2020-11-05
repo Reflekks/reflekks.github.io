@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
 
 body {
-	background-image: url("https://res.cloudinary.com/devxahzni/image/upload/v1594959844/bg_jqsmeo.jpg");
+	background-image: url("images/bg.jpg");
 	background-position: center;
 	background-repeat: repeat;
 	font-family: 'Work Sans', sans-serif;
