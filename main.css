@@ -45,20 +45,27 @@ body {
   padding-bottom: 10px;
 }
 
+div.container {
+	position: relative;
+	height: 220px;
+	line-height: 220px;
+}
 
 ul.icons {
 	cursor: default;
-	list-style: none;
-	padding: 15px;
-	padding-bottom: 10px;
-	padding-top: 25px;
-	position: relative;
-	bottom: 0px;
+	margin:auto;
+    padding:0;
+    list-style:none;
+    vertical-align:bottom;/* fine since i'm inline-block */
+    display:inline-block;
+    line-height:1em;
+	width:95%;
 }
 
 	ul.icons li {
-		display: inline-block;
-		padding: 2px;   
+		margin:0 20px 0 0;
+		float:left;
+		line-height: 28px;
 	}
 
 		ul.icons li a {
