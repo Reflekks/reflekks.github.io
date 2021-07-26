@@ -46,9 +46,7 @@ body {
 }
 
 div.container {
-	position: relative;
-	height: 220px;
-	line-height: 220px;
+	width: 99%;
 }
 
 ul.icons {
@@ -56,15 +54,13 @@ ul.icons {
 	margin:auto;
     padding:0;
     list-style:none;
-    vertical-align:bottom;/* fine since i'm inline-block */
-    display:inline-block;
-    line-height:1em;
-	width:95%;
+	width: 99%;
+	margin: auto;
 }
 
 	ul.icons li {
-		margin:0 20px 0 0;
-		float:left;
+		margin: 0 20px 0 0;
+		float: right;
 		line-height: 28px;
 	}
 
