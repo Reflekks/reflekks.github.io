@@ -46,22 +46,23 @@ body {
 }
 
 div.container {
-	width: 99%;
+	text-align: center;
 }
 
 ul.icons {
 	cursor: default;
-	margin:auto;
-    padding:0;
-    list-style:none;
-	width: 99%;
 	margin: auto;
+    padding: 0;
+    list-style: none;
+	display: inline-block;
 }
 
 	ul.icons li {
-		margin: 0 20px 0 0;
-		float: right;
+		margin-left: 10px;
+		margin-right: 10px;
+		float: left;
 		line-height: 28px;
+		padding: 0;
 	}
 
 		ul.icons li a {
