@@ -11,6 +11,7 @@ body {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(#f6dc8c, #c65c72);
 	background-attachment: fixed;
+	font-family: 'Source Sans Pro';
 }
 
 .outer {
