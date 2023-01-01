@@ -352,7 +352,7 @@ input, select, textarea {
 		max-width: 100vw;
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
-		padding: 5px;
+		padding: 50px;
 	}
 
 		#main .items {
