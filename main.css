@@ -4,9 +4,9 @@
 
 body {
 	background-image: linear-gradient(#f6dc8c, #c65c72);
-	font-family: "Roboto", Helvetica, sans-serif;
 	position: relative;
 	background-color: #150C07;
+	line-height: 1.75em;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
