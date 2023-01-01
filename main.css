@@ -3,10 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 body {
-	background-repeat: no-repeat;
 	background-image: linear-gradient(#f6dc8c, #c65c72);
-	background-attachment: fixed;
-	font-family: 'Source Sans Pro';
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .outer {
