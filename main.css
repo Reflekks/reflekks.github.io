@@ -8,6 +8,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	font-family: "Roboto", Helvetica, sans-serif;
+	height: 100%;
 }
 
 .outer {
