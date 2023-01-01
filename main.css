@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 body {
-	background-image: linear-gradient(#c65c72, #f6dc8c);
+	background-image: linear-gradient(#f6dc8c, #c65c72);
 	background-position: center;
 	background-repeat: repeat;
 	font-family: "Roboto", Helvetica, sans-serif;
