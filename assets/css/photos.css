@@ -533,16 +533,52 @@ input, select, textarea {
 			}
 
 				#main .item.span-1 {
-					width: 17em;
-				}
+				width: 20em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+			}
+			
+			#main .item.span-2 {
+				width: 30em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+			}
 
-				#main .item.span-2 {
-					width: 25.5em;
-				}
+			#main .item.span-3 {
+				width: 40em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+			}
 
-				#main .item.span-3 {
-					width: 34em;
-				}
+			#main .item.span-4 {
+				width: 20em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-top: 5px;
+			}
+			
+			#main .item.span-5 {
+				width: 30em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-top: 5px;
+			}
+			
+			#main .item.span-6 {
+				width: 40em;
+				border-radius: 25px;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-top: 5px;
+			}
 
 		}
 
