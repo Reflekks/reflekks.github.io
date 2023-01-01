@@ -353,7 +353,6 @@ input, select, textarea {
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
 		border-radius: 25px;
-		background: white;
 	}
 
 		#main .items {
@@ -378,7 +377,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			margin: 5px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 0px #ffffff;
 		}
 
 			#main .item.span-1 {
