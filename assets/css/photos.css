@@ -173,6 +173,10 @@ input, select, textarea {
 		letter-spacing: -0.05em;
 	}
 
+	.New {
+		color: red;
+	}
+
 	strong, b {
 		color: #fff;
 		color: rgba(255, 255, 255, 0.85);
