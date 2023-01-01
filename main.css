@@ -4,6 +4,7 @@
 
 body {
 	background-image: linear-gradient(#f6dc8c, #c65c72);
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	font-family: "Roboto", Helvetica, sans-serif;
