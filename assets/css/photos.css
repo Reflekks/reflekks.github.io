@@ -532,7 +532,7 @@ input, select, textarea {
 				height: 14em;
 			}
 
-				#main .item.span-1 {
+			#main .item.span-1 {
 				width: 20em;
 				border-radius: 25px;
 				margin-left: 5px;
@@ -579,8 +579,6 @@ input, select, textarea {
 				margin-right: 5px;
 				margin-top: 5px;
 			}
-
-		}
 
 		@media screen and (max-width: 736px) {
 
