@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
+html {
+	height: 100%;
+
 body {
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
 	background-image: linear-gradient(#f6dc8c, #c65c72);
-	position: relative;
-	background-color: #150C07;
-	overflow-x: hidden;
-	overflow-y: auto;
+	background-attachment: fixed;
 }
 
 .outer {
