@@ -426,7 +426,6 @@ input, select, textarea {
 			#main .item.thumb {
 				display: block;
 				position: relative;
-				background: rgba(255, 255, 255, 0.25);
 				cursor: default;
 			}
 
